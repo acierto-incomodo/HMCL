@@ -56,12 +56,12 @@ jobs:
         with:
           body_path: RELEASE_NOTE
           files: |
-            HMCL-${{ env.HMCL_VERSION }}.exe
-            HMCL-${{ env.HMCL_VERSION }}.exe.sha1
-            HMCL-${{ env.HMCL_VERSION }}.jar
-            HMCL-${{ env.HMCL_VERSION }}.jar.sha1
-            HMCL-${{ env.HMCL_VERSION }}.sh
-            HMCL-${{ env.HMCL_VERSION }}.sh.sha1
+            HMCL 3.5.exe
+            HMCL 3.5.exe.sha1
+            HMCL 3.5.jar
+            HMCL 3.5.jar.sha1
+            HMCL 3.5.sh
+            HMCL 3.5.sh.sha1
           target_commitish: ${{ env.HMCL_COMMIT_SHA }}
           name: ${{ env.HMCL_TAG_NAME }}
           tag_name: ${{ env.HMCL_TAG_NAME }}
@@ -117,12 +117,12 @@ jobs:
         with:
           body_path: RELEASE_NOTE
           files: |
-            HMCL-${{ env.HMCL_VERSION }}.exe
-            HMCL-${{ env.HMCL_VERSION }}.exe.sha1
-            HMCL-${{ env.HMCL_VERSION }}.jar
-            HMCL-${{ env.HMCL_VERSION }}.jar.sha1
-            HMCL-${{ env.HMCL_VERSION }}.sh
-            HMCL-${{ env.HMCL_VERSION }}.sh.sha1
+            HMCL 3.5.exe
+            HMCL 3.5.exe.sha1
+            HMCL 3.5.jar
+            HMCL 3.5.jar.sha1
+            HMCL 3.5.sh
+            HMCL 3.5.sh.sha1
           target_commitish: ${{ env.HMCL_COMMIT_SHA }}
           name: ${{ env.HMCL_TAG_NAME }}
           tag_name: ${{ env.HMCL_TAG_NAME }}
