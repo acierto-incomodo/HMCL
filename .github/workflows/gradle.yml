@@ -26,5 +26,5 @@ jobs:
     - name: Upload Artifacts
       uses: actions/upload-artifact@v3
       with:
-        name: HMCL-${{ env.SHORT_SHA }}
+        name: StormLauncher 3.5
         path: HMCL/build/libs
